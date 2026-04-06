@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Touristique | Explorez Agadir</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="landerscap.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fa-solid fa-sun icon-sun"></i> Agadir<span>Guide</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#attractions">Incontournables</a></li>
+                <li><a href="#infos">Infos Pratiques</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <!-- Using the generated image as background -->
+        <div class="hero-bg" style="background-image: url('images/hero_beach.png');"></div>
+        <div class="hero-content fade-in-up">
+            <h1>Découvrez <span>Agadir</span></h1>
+            <p>La perle du sud marocain et votre destination balnéaire incontournable avec 300 jours de soleil par an.</p>
+            <a href="#attractions" class="btn-primary">Commencer l'exploration <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Bienvenue à la ville du Soleil</h2>
+                    <div class="divider"></div>
+                    <p>Située sur la côte atlantique sud du Maroc, Agadir est une ville moderne et baignée de soleil. Entièrement repensée après le séisme de 1960, elle offre un visage contemporain avec de larges avenues et une ambiance décontractée.</p>
+                    <p>Que vous soyez à la recherche de détente sur ses immenses plages de sable fin, d'aventures dans les montagnes de l'Atlas ou d'une plongée au cœur de la culture berbère, Agadir est la porte d'entrée idéale.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fa-solid fa-temperature-sun"></i>
+                            <h3>300+</h3>
+                            <span>Jours de soleil/an</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fa-solid fa-water"></i>
+                            <h3>10 km</h3>
+                            <span>De corniche</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image shine-effect">
+                    <img src="https://images.unsplash.com/photo-1542055990-2521e0b02f83?q=80&w=1200&auto=format&fit=crop" alt="Marché et ambiance marocaine" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="attractions-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Lieux Incontournables</h2>
+                <div class="divider center"></div>
+                <p>Découvrez les merveilles qui font la renommée d'Agadir, entre histoire, nature et modernité.</p>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Card 1: Plage d'Agadir -->
+                <div class="card scroll-reveal">
+                    <div class="card-img" style="background-image: url('images/hero_beach.png');">
+                        <div class="tag">Détente</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Plage & Corniche</h3>
+                        <p>Une magnifique baie en forme de croissant avec une corniche animée parsemée de cafés et de restaurants pour d'inoubliables balades au coucher du soleil.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Agadir Oufella -->
+                <div class="card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="card-img" style="background-image: url('images/oufella.png');">
+                        <div class="tag">Histoire</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kasbah Oufella</h3>
+                        <p>Perchée sur une colline, cette ancienne forteresse offre une vue panoramique unique sur toute la ville, le port et l'océan Atlantique. Accessible notamment via le nouveau téléphérique.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Souk El Had -->
+                <div class="card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1549419163-549bb3c80ca8?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="tag">Shopping</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Souk El Had</h3>
+                        <p>L'un des plus grands marchés d'Afrique. Immergez-vous dans une explosion de couleurs et de parfums, entre épices, artisanat local, tapis et produits frais du terroir.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: La Marina -->
+                <div class="card scroll-reveal">
+                    <div class="card-img" style="background-image: url('images/marina.jpg');">
+                        <div class="tag">Luxe</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>La Marina d'Agadir</h3>
+                        <p>Le quartier huppé de la ville de style andalou. Idéal pour faire du shopping de luxe, manger une glace avec vue sur les yachts ou planifier une excursion en bateau.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5: Crocoparc -->
+                <div class="card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1519656116345-420235bcba3d?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="tag">Famille</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Crocoparc</h3>
+                        <p>Situé juste à l'extérieur de la ville, ce vaste jardin botanique abrite des centaines de crocodiles du Nil, offrant une expérience unique et éducative, parfaite pour les familles.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6: Taghazout -->
+                <div class="card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1537554907106-490b4d4cfeb2?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="tag">Surf</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Taghazout & Surf</h3>
+                        <p>À quelques kilomètres au nord, un ancien village de pêcheurs devenu la capitale marocaine du surf. Un esprit bohème, des vagues mondiales et une atmosphère chill.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="infos" class="infos-section scroll-reveal">
+        <div class="container">
+            <div class="info-content-box">
+                <h2><i class="fa-regular fa-compass"></i> Conseils aux Voyageurs</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-clock"></i> Meilleure période</h4>
+                        <p>Agadir est idéale toute l'année. Les hivers sont doux (autour de 20°C) et les étés y sont agréables grâce à la brise marine rafraîchissante.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-taxi"></i> Se déplacer</h4>
+                        <p>Les "petits taxis" (de couleur orange) sont nombreux et économiques à l'intérieur de la ville. Assurez-vous d'utiliser le compteur.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-money-bill-wave"></i> Monnaie</h4>
+                        <p>Monnaie : Dirham (MAD). Le marchandage fait partie de la culture dans les souks, abordez-le avec le sourire !</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-utensils"></i> Cuisine</h4>
+                        <p>Ne manquez pas de goûter aux tajines de poisson frais près du port, et d'essayer l'huile d'argan locale et l'Amlou.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                     <i class="fa-solid fa-sun"></i> Agadir<span>Guide</span>
+                </div>
+                <p>&copy; 2026 Guide Touristique d'Agadir. Créé avec passion pour découvrir le sud du Maroc.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="runner.js"></script>
+</body>
+</html>
